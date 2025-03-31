@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="conteineri">
+        <div class="calc">
+            <header>
+                <h2>calc</h2>
+                <div class="header_right">
+                    <h3>THEME</h3>
+                    <div class="theme_div">
+                        <div class="theme_number_div">
+                            <p>1</p>
+                            <p>2</p>
+                            <p>3</p>
+                        </div>
+                        <div class="theme_oval">
+                            <div class="theme_oval_div" onclick="them1()"></div>
+                            <div class="theme_oval_div" onclick="them2()"></div>
+                            <div class="theme_oval_div" onclick="them3()"></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <h4 class="screen">12</h4>
+            <divc class="keys">
+                <button class="btn" onclick="btn(7)">7</button>
+                <button class="btn" onclick="btn(8)">8</button>
+                <button class="btn" onclick="btn(9)">9</button>
+                <button class="btn del" onclick="del()">DEL</button>
+                <button class="btn" onclick="btn(4)">4</button>
+                <button class="btn" onclick="btn(5)">5</button>
+                <button class="btn" onclick="btn(6)">6</button>
+                <button class="btn" onclick="operators('+')">+</button>
+                <button class="btn" onclick="btn(1)">1</button>
+                <button class="btn" onclick="btn(2)">2</button>
+                <button class="btn" onclick="btn(3)">3</button>
+                <button class="btn" onclick="operatoers('-')">-</button>
+                <button class="btn" onclick="operators('.')">.</button>
+                <button class="btn" onclick="btn(0)">0</button>
+                <button class="btn" onclick="operatoers('/')">/</button>
+                <button class="btn" onclick="operatoers('*')">*</button>
+                <button class="btn reset" onclick="rst()">RESET</button>
+                <button class="btn tolia" onclick="tolia()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="./scrept.js"></script>
+    <script src="./theme.js"></script>
+</body>
+
+</html>
